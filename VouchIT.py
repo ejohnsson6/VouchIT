@@ -11,7 +11,7 @@ def main(argv):
     vouch_list = argv[0]
 
     final = every_other(vouch_list, form)
-    save(final, filename='merged.pdf')
+    save(final, filename='output.pdf')
 
 
 def every_other(vouch_list: str, sign: io.BytesIO) -> io.BytesIO:
